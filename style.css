@@ -6,7 +6,7 @@ section {
     padding: 40px 0;
 }
 
-h2 {
+h2, h3 {
     margin-bottom: 20px;
 }
 
@@ -20,4 +20,10 @@ h2 {
 
 .btn-primary {
     border-radius: 5px;
+}
+
+#authSection {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
